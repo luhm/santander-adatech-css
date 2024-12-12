@@ -1,4 +1,4 @@
-# Repositório do curso digital de CSS
+# Cópia do Repositório do curso digital de CSS da ADA-Tech
 
 ## Código de Aula
 Neste repositório encontra-se o código apresentado durante as aulas do curso digital, incluindo o início do projeto desenvolvido em aula, além de exercícios para fixação.
