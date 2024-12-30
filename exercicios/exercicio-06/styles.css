@@ -22,14 +22,81 @@
   margin: auto;
   border-radius: 1.6rem;
   background-color: white;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  padding: 4rem;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
   padding: 3rem;
+  background-color: var(--tag-color-5);
 }
+
+/* títulos - geral */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+h1 > strong {
+  color: var(--tag-color-5);
+}
+
+h2 {
+  margin-top: 10px;
+  display: inline-flex;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  top: 0.5rem;
+  color: white;
+  border-radius: 4px;
+  /* background-color: var(--tag-color-1); */
+}
+
+.subjects li:nth-child(5n+1) h2 {
+  background-color: var(--tag-color-1);
+}
+
+.subjects li:nth-child(5n+2) h2 {
+  background-color: var(--tag-color-2);
+}
+
+.subjects li:nth-child(5n+3) h2 {
+  background-color: var(--tag-color-3);
+}
+
+.subjects li:nth-child(5n+4) h2 {
+  background-color: var(--tag-color-4);
+}
+
+.subjects li:nth-child(5n+5) h2 {
+  background-color: var(--tag-color-5);
+}
+
+.subjects hr {
+  margin-top: 20px;
+  height: 1px;
+  background-color: var(--separator-color);
+  border: none;
+}
+
+/* tabelas */
+
+.topics > li {
+  padding-bottom: 10px;
+  padding-top: 15px;
+  margin-left: 15px;
+  padding-left: 10px;
+}
+
+.topics li:nth-child(2n){
+  background-color: var(--separator-color);
+}
+
+
