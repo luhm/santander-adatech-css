@@ -42,7 +42,7 @@ time {
     ". . . . .";
 }
 
-/* porque ta usando high1 e não highlight one?? descobri +-: é porque quando usa esse 'grid-template-area', voce cria o nome da grid-area que será conectada automaticamente com a próxima área que existe naquele html, memso que os nomes não sejam os mesmos */
+/* porque ta usando high1 e não highlight one?? descobri +-: é porque quando usa esse 'grid-template-area', voce cria o nome da grid-area que será conectada automaticamente com a próxima área que existe naquele html, memso que os nomes não sejam os mesmos, como https://drafts.csswg.org/css-grid/#grid-template-areas-property*/
 
 
 .about {
