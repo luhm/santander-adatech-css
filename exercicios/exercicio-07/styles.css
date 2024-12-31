@@ -86,16 +86,28 @@ header span {
 
 /* preencha a partir daqui */
 [data-products-container="list"] {
-
+  display: grid;
+  gap: 2rem;
 }
 
 [data-products-container="cards"] {
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
 }
 
 [data-products-container="highlights"] {
-
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+
+/* [data-products-container="highlights"] .product {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: 1fr 1fr 2fr;
+} */
 
 [data-products-container="list"] .product {
   min-height: 10rem;
@@ -106,7 +118,9 @@ header span {
   min-height: 20rem;
 }
 
-[data-products-container="highlights"] .product:nth-child(1), 
+[data-products-container="highlights"] .product:nth-child(1),
 [data-products-container="highlights"] .product:nth-child(6) {
-
+  flex-grow: 2;
 }
+
+
