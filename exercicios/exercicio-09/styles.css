@@ -32,8 +32,18 @@ time {
   gap: 1.5rem 5rem;
 
   /* descomente o código abaixo e preencha os valores esperados */
-  /* grid-template-areas: ""; */
+  grid-template-areas: 
+    ". . . . ."
+    ". about about about ."
+    ". logo year high1 high1"  
+    ". logo year high2 high2"
+    ". logo stats stats stats"
+    ". logo high3 high3 high3"
+    ". . . . .";
 }
+
+/* porque ta usando high1 e não highlight one?? descobri +-: é porque quando usa esse 'grid-template-area', voce cria o nome da grid-area que será conectada automaticamente com a próxima área que existe naquele html, memso que os nomes não sejam os mesmos */
+
 
 .about {
   grid-area: about;
